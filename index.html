@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+   
+</head>
+<style>
+    *{
+
+        background-color: #161616;
+    }
+img{
+    height: 150px;
+    width:150px;
+  object-fit: cover;
+  border-radius:50%;
+  border:solid rgb(8, 8, 8) 5px;
+ 
+ 
+ 
+}
+
+
+.cont{
+    height:159px;
+    width:155px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    transition:transform .5s ease-in-out;
+}
+.cont:hover{
+    transform:scale(1.3);
+
+    box-shadow:0 0 8px cyan , 0 0 35px rgb(97, 236, 236);
+
+}
+.conte{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top:100px;
+       gap:70px;
+       color: azure;
+       font-size: large;
+      
+}
+
+
+
+.navbar {
+    background-color: rgb(77, 77, 82);
+    border-radius:10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom:1px;
+  
+   
+   
+  }  
+    
+  
+  .navbar a {  
+    background-color: rgb(74, 74, 77);
+    float: left; 
+    display: block;   
+    color: white;
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration:none;
+  text-align: center;}
+    
+  
+  .navbar a:hover {  
+    background-color: #ddd; 
+    color: rgb(12, 10, 10); 
+  }  
+  .block{
+   position: fixed;
+   margin-top:-100px;
+   
+   background-color: #00000054;
+   width:1390px; 
+  align-items: center;
+justify-content: center;
+justify-content: center; 
+left:0px;}
+
+
+@media(max-width:484px){
+  
+  .navbar a{
+    font-size:10px;
+  }
+
+  .block{
+    width:400px;
+  }
+
+  .navbar {
+    background-color: rgb(77, 77, 82);
+    
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;}
+
+
+    .conte{
+           gap:60px;  
+           flex-direction: column;
+}
+
+
+.cont{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    
+  
+ 
+}
+
+img{
+    height:50px;
+    width:50px;
+    gap:px;
+  object-fit: cover;
+  border-radius:50%;
+  border:solid rgb(8, 8, 8) 5px;
+  box-shadow:0 0 5px cyan , 0 0 25px cyan;
+ 
+ 
+}
+.cont p{
+    font-size:7px;
+}
+
+
+}
+
+</style>
+<body>
+    <div class="back">
+        <div class="block">
+            <div class="navbar">  
+              <a href="http://127.0.0.1:5500/home.html">Home</a>    
+              <a href="http://127.0.0.1:5500/in.html">Info</a>  
+              <a href="http://127.0.0.1:5500/cours.html">Course</a>  
+             
+              <a href="http://127.0.0.1:5500/contect.html">Contect</a>  
+              <a href="http://127.0.0.1:5500/help.html">Help</a>    
+          </div>  
+        </div>
+
+        
+        
+    <div class="conte">
+    <div class="cont" id="insta">
+        <img src="instagram.jpg" class="zoom-img">
+        <p>______Instagram______</p>
+    </div>
+
+    <div class="cont" id="link">
+        <img src="linkden.jpg">
+    
+<p>______linkedin______</p>    </div>
+
+    <div class="cont" id="you">
+        <img src="youtube.jpg">
+    <p>______Youtube______</p>
+    </div>
+
+    <div class="cont" id="git">
+        <img src="GitHub.png">
+    <P>______Github______</P>
+    </div>
+    
+    <div class="cont" id="x">
+        <img src="x.jpg">
+    <P>______x______</P>
+    </div>
+
+
+    </div>
+    
+<script src="script.js">
+ 
+
+</script>
+
+</body>
+</html>
